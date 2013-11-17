@@ -7,10 +7,15 @@ tested on blender version:
 - x64 2.6.9, build 61196
 
 
+installation:
+
+File -> User Preferences (ctrl-alt-u) -> addons -> install from file -> navigate to *.py and select -> check selected to turn on -> (optional) save user settings, to load on default
+
+
 
 scripts:
 
-1) modifiers manipulator
+1) modifiersManipulator.py
 adds a panel in [object panel] for improved manipulation of object modifiers with functionality (v0.1):
 - batch copying modifiers with settings,
 - batch deleting,
