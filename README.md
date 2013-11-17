@@ -9,6 +9,7 @@ tested on blender version:
 
 
 scripts:
+
 1) modifiers manipulator
 adds a panel in [object panel] for improved manipulation of object modifiers with functionality (v0.1):
 - batch copying modifiers with settings,
