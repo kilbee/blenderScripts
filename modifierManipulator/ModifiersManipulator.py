@@ -192,12 +192,12 @@ def register():
     bpy.utils.register_class(CopyModifiersModifier)
 
 def unregister():
-    bpy.utils.register_class(DrawPanel)
-    bpy.utils.register_class(DropDownMenuOperator)
-    bpy.utils.register_class(MakeActiveOperator)
-    bpy.utils.register_class(SelectObjectOperator)
-    bpy.utils.register_class(RemoveModifiersOperator)
-    bpy.utils.register_class(CopyModifiersModifier)
+    bpy.utils.unregister_class(DrawPanel)
+    bpy.utils.unregister_class(DropDownMenuOperator)
+    bpy.utils.unregister_class(MakeActiveOperator)
+    bpy.utils.unregister_class(SelectObjectOperator)
+    bpy.utils.unregister_class(RemoveModifiersOperator)
+    bpy.utils.unregister_class(CopyModifiersModifier)
 
 if __name__ == "__main__":
     register()  
