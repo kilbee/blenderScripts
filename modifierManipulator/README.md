@@ -1,4 +1,4 @@
-blenderScripts
+ModifierManipulator
 ==============
 
 some scripts to improve workflow in blender
@@ -15,7 +15,7 @@ File -> User Preferences (ctrl-alt-u) -> addons -> install from file -> navigate
 
 scripts:
 
-1) modifiersManipulator.py
+modifiersManipulator.py
 adds a panel in [object panel] for improved manipulation of object modifiers with functionality (v0.1):
 - batch copying modifiers with settings,
 - batch deleting,
